@@ -1,4 +1,0 @@
-catch_a_pokemon_short_title
-Pegue um Pokémon
-visit_a_pokestop_short_title
-Visite uma Poképarada
