@@ -10,6 +10,15 @@ foreach (dirtree($thisFolder) as $k => $dir) {
         $directory = dirtree($thisFolder . $k);
         file_put_contents($jsonFile, json_encode($directory));
     }
+    if ($k === 'reward') {
+        foreach ($dir as $ks => $subdir) {
+            if (is_dir($thisFolder . $k . DIRECTORY_SEPARATOR . $ks)) {
+                $jsonFile = $thisFolder . $k . DIRECTORY_SEPARATOR . $ks . DIRECTORY_SEPARATOR . 'index.json';
+                $directory = dirtree($thisFolder . $k . DIRECTORY_SEPARATOR . $ks);
+                file_put_contents($jsonFile, json_encode($directory));
+            }
+        }
+    }
 }
 
 function dirtree($dir, $ignoreEmpty=false) {
