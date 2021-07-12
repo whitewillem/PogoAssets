@@ -1,4 +1,4 @@
 Pokémon icons for PMSF.
 
-https://raw.githubusercontent.com/whitewillem/PogoAssets/resized/no_border/
-https://raw.githubusercontent.com/whitewillem/PogoAssets/resized/icons_large/
+https://raw.githubusercontent.com/whitewillem/PogoAssets/main/uicons/
+https://raw.githubusercontent.com/whitewillem/PogoAssets/main/uicons-outline/
